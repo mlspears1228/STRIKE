@@ -1,22 +1,19 @@
+let keyArray = [];
 let gameState;
 const GameStates = {
-  LOGO : 0,
-  TITLE : 1,
-  GAME : 2,
+    LOGO: 0,
+    TITLE: 1,
+    GAME: 2,
 };
 
-
-
-function preload() {
-  
-}
+function preload() {}
 function setup() {
-  createCanvas(400, 400);
-  gameState = GameStates.LOGO;
+    createCanvas(400, 400);
+    gameState = GameStates.LOGO;
 }
 
 function draw() {
-  background(220);
+    background(220);
 }
 
 // functions for key pressing and releasing
@@ -24,11 +21,11 @@ function draw() {
  * Description placeholder
  */
 function keyPressed() {
-  keyArray[keyCode] = 1;
+    keyArray[keyCode] = 1;
 }
 /**
  * Description placeholder
  */
 function keyReleased() {
-  keyArray[keyCode] = 0;
+    keyArray[keyCode] = 0;
 }
