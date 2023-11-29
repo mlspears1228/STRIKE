@@ -1,5 +1,13 @@
+let font;
+let backgroundTilemap;
 // Preload function.
-function preload() {}
+function preload() {
+    // Load Text
+    font = loadFont("assets/text/lookout_7_basic_v1/Lookout 7 Basic.ttf");
+    loadXML("assets/tilemaps/Background Images.xml", print);
+    // Load Title Screen Assets
+    loadXML("assets/tilemaps/title.tmx", loadTilemap);
+}
 let gameState;
 const GameStates = {
     LOGO: 0,

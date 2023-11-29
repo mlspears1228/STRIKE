@@ -1,2 +1,5 @@
 /jsconfig.json
 node_modules/
+*.tiled-project
+*.tiled-session
+*.psd

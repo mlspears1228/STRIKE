@@ -1,0 +1,36 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"Background Images",
+ "spacing":0,
+ "tilecount":3,
+ "tiledversion":"1.10.2",
+ "tileheight":224,
+ "tiles":[
+        {
+         "id":0,
+         "image":"..\/parralax backgrounds\/country-platform-files\/layers\/country-platform-back.png",
+         "imageheight":224,
+         "imagewidth":384
+        }, 
+        {
+         "id":1,
+         "image":"..\/parralax backgrounds\/country-platform-files\/layers\/country-platform-forest.png",
+         "imageheight":224,
+         "imagewidth":160
+        }, 
+        {
+         "id":2,
+         "image":"..\/parralax backgrounds\/country-platform-files\/layers\/country-platform-tiles-example.png",
+         "imageheight":224,
+         "imagewidth":384
+        }],
+ "tilewidth":384,
+ "type":"tileset",
+ "version":"1.10"
+}

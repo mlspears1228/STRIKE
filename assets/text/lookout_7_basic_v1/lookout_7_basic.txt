@@ -1,0 +1,11 @@
+CONSTRUCT 3 - SpriteFont parameters
+
+Character width: 16
+
+Character height: 16
+
+Character set: 
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!"'+-=*%_()
+
+Spacing data:
+[[5," "],[11,"MNW"],[10,"BDEFHKLOPQRUVXY"],[9,"ASTmw"],[8,"CGJZ%"],[7,"Idekprstvxyz0123456789?_"],[6,"abcfghnoqu+*"],[5,"ij\"-="],[4,"l.,;:!()"],[3,"'"]]
