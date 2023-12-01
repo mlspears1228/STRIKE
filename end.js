@@ -1,1 +1,3 @@
-function end() {}
+class End {
+    constructor() {}
+}
